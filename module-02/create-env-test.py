@@ -108,7 +108,7 @@ print("\r")
 print('*' * 79)
 print("Testing for the correct HTTP status (200) response from the webserver on the EC2 instances...")
 # https://pypi.org/project/tqdm/
-for i in tqdm(range(30)):
+for i in tqdm(range(40)):
   time.sleep(1)
 
 checkHttpReturnStatusMismatch = False
